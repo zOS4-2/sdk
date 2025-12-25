@@ -6,7 +6,7 @@
  */
 
 import React, { createContext, useContext, ReactNode, useMemo } from 'react';
-import { ZWindow } from '@zos/ui';
+import { ZWindow } from '@z-os/ui';
 import { AppManifest, WindowType, AppContext } from '../types';
 import { useApp } from '../hooks/useApp';
 import { useNotifications } from '../hooks/useNotifications';
